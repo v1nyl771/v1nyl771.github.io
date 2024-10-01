@@ -71,4 +71,6 @@ h2 {
   .nav {
 	width:100%;
 }
+	#picture {
+max-width:150px;
 }
