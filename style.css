@@ -1,5 +1,4 @@
 body {
-background: linear-gradient(to bottom, #cc33ff, #0033cc);
 font-family: Helvetica;
 }
 
@@ -28,10 +27,21 @@ margin: 60px 0px;
   height:80%;
   color: black;
   background-color: white;
-  justify-content: center;
   margin: 135px auto;
   padding:60px 40px;/*top, right, bottom, left*/
   border-radius: 25px;
+ }
+ 
+ #navbar {
+	height:auto;
+	text-align:left;
+ }
+ 
+ #mainbackground {
+	 background: linear-gradient(to bottom, #cc33ff, #0033cc);
+ }
+ #iframebackground {
+	 background: white;
  }
  
 .nav {
@@ -41,6 +51,34 @@ margin: 60px 0px;
 	font-size:20px;
 	width:15%;
 	border: 2px solid white;
+}
+
+.navportfolio {
+	background: linear-gradient(to bottom, #0033cc, #cc33ff);
+    border-radius: 12px;
+    color: white;
+	font-size:20px;
+	width:46.2%;
+	border: 2px solid white;
+}
+
+.portfolio {
+	background: linear-gradient(to bottom, #0033cc, #cc33ff);
+    border-radius: 12px;
+    color: white;
+	font-size:20px;
+	width:20%;
+	border: 2px solid white;
+}
+
+.code {
+	background: linear-gradient(to bottom, #0033cc, #cc33ff);
+    border-radius: 12px;
+    color: white;
+	font-size:15px;
+	width:35%;
+	border: 2px solid white;
+	margin:2% 0 5% 0;
 }
  
  .responsive {
@@ -57,18 +95,26 @@ h1 {
 	margin-bottom:10px;
 }
 
-h2 {
+h2, h3 {
 	margin:0 0 10px 0;
 }
+li {
+	margin:0;
+	list-style-type: none;
+}
 
-@media only screen and (max-width: 1040px) {
+p{
+	margin:0;
+}
+
+@media only screen and (max-width: 1300px) {
   h1 {
     font-size: 50px;
   }
   h2 {
 	font-size: 25px;
 }
-  .nav {
+  .nav, .navportfolio {
 	width:100%;
 }
 #picture {
